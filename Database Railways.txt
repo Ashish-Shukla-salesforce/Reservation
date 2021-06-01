@@ -1,0 +1,76 @@
+DATABASE FOR PROJECT RAILWAYS
+
+
+
+
+create database railways;
+
+
+
+
+
+
+1:)TABLE TRAINS
+
+
+create table trains(train_nos  varchar(45),
+train_name      varchar(34),
+departure       varchar(45),
+arrival         varchar(23),
+fac1            varchar(45),
+fac2            varchar(34),
+fac3            varchar(54),
+fsl             varchar(23),
+fg              varchar(34),
+from_station    varchar(45),
+to_station      varchar(45),
+aac1            varchar(34),
+aac2            varchar(25), 
+aac3            varchar(23),
+asl             varchar(25));
+
+
+
+
+
+
+2:) TABLE BOOKINGS
+
+
+
+create table bookings(userid  varchar(45),
+emailid         varchar(15),
+train_no        varchar(8),
+train_name      varchar(45),
+departure       varchar(45),
+arrival         varchar(34),
+from_station    varchar(45),
+to_station      varchar(45),
+childern        varchar(34),
+adults          varchar(23));
+
+
+
+
+
+
+
+
+3:) TABLE UREG
+
+
+
+create table ureg(NAME  varchar(30),
+PASS             varchar(45),
+EMAIL            varchar(20),
+ADHAR            varchar(12),
+PAN              varchar(10),
+mob              varchar(10),
+sex              varchar(1));
+
+
+
+
+
+
+***************************************************************************************************************************************************
